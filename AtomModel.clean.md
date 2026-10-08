@@ -10,6 +10,7 @@ style: |
         --white: #F6F4F3;
         --sky: #5695DC;
         --night: #183059;
+        --ultraSky: #5555DC;
     }
 
     section {
@@ -45,6 +46,7 @@ style: |
         margin: 0 0 1em 1em;
         box-sizing: border-box;
         padding: 0.5em 0.75em;
+        line-height: 1.1em;
     }
     h2 {
     }
@@ -138,15 +140,20 @@ Visual Suggestion: Timeline graphic showing original April 2026 deadline and ext
 <style scoped>
     blockquote {
         width: 50vw !important;
-        max-width: 50%;
+        max-width: 40%;
         float: right;
         margin: 0 0 1em 1em;
     }
     ul {
-        width: 40%;
+        width: 50%;
         float: left;
     }
+    section {
+        background: var(--night);
+    }
+    strong {color: calc(var(--red)}
 </style>
+
 ## The Bottleneck by Numbers
 
 - **Average government website**: 5000+ pages
@@ -238,6 +245,13 @@ Quarks are the tools & knowledge we use to implement accessibility, like:
 
 ---
 
+<style scoped>
+    section {
+        background: var(--sky);
+        color: var(--night);
+    }
+</style>
+
 ## Protons work in the Hub
 
 ![Hydrogen atom with one proton and one electron.](hydrogen.png)
@@ -249,7 +263,7 @@ Quarks are the tools & knowledge we use to implement accessibility, like:
 - You bring the positive energy and a combination of quarks that make you required to the execution of accessibility.
 - Your job is to define policies, methods, and accountability strategies, train, support, test, and answer questions.
 
->Protons build the Neutrons from the collection of quarks available
+>Protons build the Neutrons from the quarks available
 
 ---
 
@@ -308,6 +322,9 @@ Quarks are the tools & knowledge we use to implement accessibility, like:
 ---
 <style scoped>
     ul {font-size: .875em;}
+    blockquote {
+        line-height: 1.1em;
+    }
 </style>
 
 ## Electrons
@@ -316,7 +333,7 @@ Quarks are the tools & knowledge we use to implement accessibility, like:
 - Electrons hop from atom to atom. When one leaves, there is energy lost and instability occurs.
 - A good electron is one who puts accessibility practices into daily work.
 
->Keep skilled Electrons incentivized to stick around. <br>Or make them Protons.
+>Keep skilled Electrons incentivized to stick around. Or make them Protons.
 
 ---
 
@@ -367,14 +384,13 @@ Quarks are the tools & knowledge we use to implement accessibility, like:
 
 ## Molecules
 
-**The more complex the organization, the more complex the governance will be. <br>It may make sense to build several smaller atoms that work together for wider coverage.**
+**The more complex the organization, the more complex the governance will be. <br><br>It may make sense to build several smaller atoms that work together for wider coverage.**
 
 ---
 <style scoped>
     li {width: 100%; display: block; float: none;
     }
     ul {
-        border:1px solid 
     max-width: 800px;
     font-size: .875em;
     }
@@ -501,17 +517,6 @@ Quarks are the tools & knowledge we use to implement accessibility, like:
 - **"Our org is too siloed"** — That's exactly why you need spokes in the silos. The hub bridges them; it doesn't eliminate them.
 - **"This sounds slow"** — It's faster than centralized remediation at scale. Pilot results in 6 months beat a 47,000-page backlog in 12.
 
----
-
-## New Mexico Dept. of Cultural Affairs​
-
-### 97% fewer critical findings in six months​
-
-- Improved accessibility across 15 websites​
-- Required Level Access training for content managers to sustain the work​
-- Raised the average accessibility score from 78% to 87%​
-
-[![QR code to Level Access's article on the New MExico Department of Cultural Affairs - this is a link](QR.png)](https://www.levelaccess.com/resources/how-the-new-mexico-dca-cut-critical-accessibility-findings-by-97/​)
 
 ___
 
@@ -522,8 +527,9 @@ h1 {font-size: 6em;}
 # Q & A
 
 ---
+
 <style scoped>
-    ul {max-width: 50%; font-size: .875em;}
+    ul {max-width: 53%; font-size: .875em;}
     section {
         background: var(--white);
         color: var(--night) !important;
