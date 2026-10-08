@@ -554,3 +554,9 @@ h1 {font-size: 6em;}
 - https://tarnoff.info
 
 !["Nat's dog, Graham shaking hands and smiling. Graham is a fawn colored, black masked, 8.5 year old Great Dane."](graham.jpg)
+
+---
+
+# This Talk on Github
+
+https://github.com/nattarnoff/Atomic-Accessibility-Organization
